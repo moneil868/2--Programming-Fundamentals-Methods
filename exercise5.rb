@@ -3,7 +3,10 @@
 def greet_backwards(user_name)
 
   #that greets people using their reversed names.
-  reversed = "Hello, #{user_name.reverse}! Welcome home"
+  "Hello, #{user_name.reverse}! Welcome home"
+
+  ##Finally, modify your greet_backwards method to say the person's name twice.
+  "Hello, #{(user_name.reverse)*2}! Welcome home" 
 
 end
 
