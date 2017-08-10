@@ -10,8 +10,6 @@ print "Please enter the number you wish to evalute: "
 number = gets.chomp.to_i
 result = negative(number)
 
-puts result
-
 if result == false
   puts "The number #{number} is not a negative number"
 else
