@@ -1,5 +1,5 @@
 #Define a method called double that accepts an argument called my_number
-def double (number)
+def double(number)
   #returns that number multiplied by 2.
   number * 2
 end
