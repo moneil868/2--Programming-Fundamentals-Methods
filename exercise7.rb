@@ -3,13 +3,13 @@ def wrap_text(text, symbol)
   "#{symbol}#{text}#{symbol}"
 end
 
-# print "Please enter the text you wish to make pretty: "
-# text = gets.chomp
-# print "Sweet! Now enter the symbols you wish to attach to the text: "
-# symbol = gets.chomp
-#
-# result = wrap_text(text, symbol)
-# puts result
+print "Please enter the text you wish to make pretty: "
+text = gets.chomp
+print "Sweet! Now enter the symbols you wish to attach to the text: "
+symbol = gets.chomp
+
+result = wrap_text(text, symbol)
+puts result
 
 #Now that this method works, how can we use it (without modifying the method) to generate the following string?
 print "Please enter the text you wish to make pretty: "
